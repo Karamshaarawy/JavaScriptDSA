@@ -16,4 +16,6 @@ if (pivot>arr[i]){
     swap(arr,i,swapIndex)
 }
     }
+
+    swap(arr,swapIndex)
 }
