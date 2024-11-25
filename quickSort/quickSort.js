@@ -4,5 +4,10 @@ function pivot(
     let pivot=arr[start]
     let swapIndex=start
 
-    for (let i=0;i<arr.length;i++){}
+    for (let i=0;i<arr.length;i++){
+if (pivot>arr[i]{
+    swapIndex++
+    swap(arr,i,swapIndex)
+})
+    }
 }
