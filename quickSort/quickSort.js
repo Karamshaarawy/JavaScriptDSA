@@ -3,4 +3,6 @@ function pivot(
 ){
     let pivot=arr[start]
     let swapIndex=start
+
+    for (let i=0;i<arr.length;i++){}
 }
