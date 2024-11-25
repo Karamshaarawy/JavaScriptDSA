@@ -18,4 +18,5 @@ if (pivot>arr[i]){
     }
 
     swap(arr,swapIndex)
+    return swapIndex
 }
