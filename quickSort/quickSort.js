@@ -21,4 +21,9 @@ swap(arr,start,swapIndex)
 return swapIndex
 }
 
-console.log(pivot([9,8,2,1,5,10,7,6,3]))
+function quickSort(arr,left=0,right=arr.length-1){
+    let index=pivot(arr,left,right)
+}
+
+
+l
