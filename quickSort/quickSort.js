@@ -33,4 +33,5 @@ function quickSort(arr,left=0,right=arr.length-1){
 }
 
 
-l
+let x=quickSort([5,8,7,9,5,48,84,8,54,2,54,454,845,4548,54,845,454,856,89,47,5562,215,354,8,8745,54654654,6454])
+console.log(x)
