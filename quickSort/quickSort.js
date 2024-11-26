@@ -5,18 +5,20 @@ function swap(arr,i,j){
 }
 
 function pivot(
-    arr,start=0,end=arr.length+1
+    arr,start=0,end=arr.length
 ){
     let pivot=arr[start]
     let swapIndex=start
 
-    for (let i=0;i<arr.length;i++){
+    for (let i=0;i<end;i++){
 if (pivot>arr[i]){
     swapIndex++
     swap(arr,i,swapIndex)
 }
     }
 
-    swap(arr,swapIndex)
-    return swapIndex
+swap(arr,start,swapIndex)   
+return swapIndex
 }
+
+console.log(pivot([9,8,2,1,5,10,7,6,3]))
