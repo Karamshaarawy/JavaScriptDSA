@@ -23,10 +23,12 @@ return swapIndex
 
 function quickSort(arr,left=0,right=arr.length-1){
     let index=pivot(arr,left,right)
- //left
+    if(left<right){
+        //left
         quickSort(arr,left,index-1)
-       //right
+        //right
         quickSort(arr,index+1,right)
+    }
 }
 
 
