@@ -10,7 +10,7 @@ function pivot(
     let pivot=arr[start]
     let swapIndex=start
 
-    for (let i=0;i<=end;i++){
+    for (let i=start;i<=end;i++){
 if (pivot>arr[i]){
     swapIndex++
     swap(arr,i,swapIndex)
