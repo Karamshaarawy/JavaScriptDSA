@@ -29,6 +29,7 @@ function quickSort(arr,left=0,right=arr.length-1){
         //right
         quickSort(arr,index+1,right)
     }
+    return arr
 }
 
 
