@@ -17,7 +17,9 @@ function largestDigit(arr){
 }
 
 function radixSort(arr){
-    
+    let largestDigits=largestDigit(arr)
 }
+
+radixSort([1,12,123,1234,12345,123456,1234567,12345678,123456789])
 
 
