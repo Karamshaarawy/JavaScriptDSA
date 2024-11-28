@@ -24,9 +24,7 @@ function radixSort(arr){
             let position=getDigit(arr[i],k)
             digitBuckets[position].push(arr[i])
         }
+        arr=[].concat(...digitBuckets)
     }
+return arr
 }
-
-
-
-
