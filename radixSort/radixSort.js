@@ -19,7 +19,12 @@ function largestDigit(arr){
 function radixSort(arr){
     let largestDigits=largestDigit(arr)
     for (let k=0;k<largestDigits;k++){
-        
+        let digitBuckets=Array.from({langth:10},()=>[])
+        for (let i=0;i<arr.length;i++){
+            let position=getDigit(arr[i],k)
+            digitBuckets[position]=arr[i]
+        }
+        console.log(digitBuckets)
     }
 }
 
