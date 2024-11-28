@@ -7,3 +7,13 @@ function digitCount(num){
     return Math.floor(Math.log10(Math.abs(num)))+1
 }
 
+function largestDigit(arr){
+    let largestDigits=0
+
+    for(let i=0;i<arr.length;i++){
+        largestDigits=Math.max(largestDigits,digitCount(arr[i]))
+    }
+    return largestDigits
+}
+
+
