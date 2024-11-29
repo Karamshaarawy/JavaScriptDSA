@@ -72,3 +72,6 @@ In addition, there are two special class element syntaxes: constructor and stati
 - Private fields can only be declared up-front in a field declaration. They cannot be created later through assigning to them, the way that normal properties can.
 
 
+** Inheritance:
+- The extends keyword is used in class declarations or class expressions to create a class as a child of another constructor.
+If there is a constructor present in the subclass, it needs to first call super() before using this. The super keyword can also be used to call corresponding methods of super class.
