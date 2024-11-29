@@ -64,3 +64,11 @@ In addition, there are two special class element syntaxes: constructor and stati
 - The fields can be declared with or without a default value.
 - Fields without default values default to undefined.
 - By declaring fields up-front, class definitions become more self-documenting, and the fields are always present, which help with optimizations.
+
+
+** Private properties:
+- It's an error to reference private fields from outside of the class; they can only be read or written within the class body.
+- By defining things that are not visible outside of the class, you ensure that your classes' users can't depend on internals, which may change from version to version.
+- Private fields can only be declared up-front in a field declaration. They cannot be created later through assigning to them, the way that normal properties can.
+
+
