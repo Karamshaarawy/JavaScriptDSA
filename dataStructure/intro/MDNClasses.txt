@@ -46,3 +46,10 @@ In addition, there are two special class element syntaxes: constructor and stati
 — a SyntaxError is thrown if the class contains more than one occurrence of a constructor method.
 - A constructor can use the super keyword to call the constructor of the super class.
 - You can create instance properties inside the constructor.
+
+
+** Methods
+- Methods are defined on the prototype of each class instance and are shared by all instances.
+- Methods can be plain functions, async functions, generator functions, or async generator functions. 
+
+
