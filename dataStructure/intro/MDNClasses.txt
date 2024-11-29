@@ -5,3 +5,37 @@
 ** Defining classes:
 - Classes are in fact "special functions"
 - A class can be defined in two ways: a class expression or a class declaration.
+
+** Class body
+- The body of a class is the part that is in curly braces {}. This is where you define class members, such as methods or constructor.
+
+- The body of a class is executed in strict mode even without the "use strict" directive.
+
+- A class element can be characterized by three aspects:
+
+- Kind: Getter, setter, method, or field
+- Location: Static or instance
+- Visibility: Public or private
+
+Together, they add up to 16 possible combinations. To divide the reference more logically and avoid overlapping content, the different elements are introduced in detail in different pages:
+
+- Method definitions
+Public instance method
+
+- getter
+Public instance getter
+
+- setter
+Public instance setter
+
+- Public class fields
+Public instance field
+
+- static
+Public static method, getter, setter, and field
+
+- Private properties
+Everything that's private.
+
+In addition, there are two special class element syntaxes: constructor and static initialization blocks, with their own references.
+
