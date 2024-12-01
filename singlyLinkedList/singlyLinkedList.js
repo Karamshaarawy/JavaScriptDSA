@@ -26,9 +26,14 @@ class SinglyLinkedList{
     }
     pop(){
         let current=this.head
-        
+        let newTail=current
         if (!current){
             return undefined
+        }else{
+            while(current.next){
+                newTail=current
+                current=current.next
+            }
         }
     }
 }
