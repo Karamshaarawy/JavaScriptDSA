@@ -12,3 +12,12 @@ first.next.next.next=new Node("are")
 first.next.next.next.next=new Node("you?")
 
 console.log(first)
+
+class SinglyLinkedList{
+    constructor(){
+        this.head=null
+        this.tail=null
+        this.length=0
+    }
+    
+}
