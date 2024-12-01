@@ -33,3 +33,14 @@ class SinglyLinkedList{
     }
     
 }
+
+
+let linkedList= new SinglyLinkedList()
+console.log(linkedList)
+//pushing elemnt to the linked list
+linkedList.push("x")
+console.log(linkedList)
+linkedList.push("y")
+console.log(linkedList)
+linkedList.push("z")
+console.log(linkedList)
