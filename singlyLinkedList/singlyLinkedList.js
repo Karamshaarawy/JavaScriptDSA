@@ -25,7 +25,11 @@ class SinglyLinkedList{
         return this
     }
     pop(){
-       
+        let current=this.head
+        
+        if (!current){
+            return undefined
+        }
     }
 }
 
