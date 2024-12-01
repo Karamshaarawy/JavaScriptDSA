@@ -48,3 +48,20 @@ class SinglyLinkedList{
 
 
 let linkedList= new SinglyLinkedList()
+//pushing elemnt to the linked list
+linkedList.push("x")
+linkedList.push("y")
+linkedList.push("z")
+console.log(linkedList)
+let x=linkedList.pop()
+console.log(x)
+console.log(linkedList)
+x=linkedList.pop()
+console.log(x)
+console.log(linkedList)
+x=linkedList.pop()
+console.log(x)
+console.log(linkedList)
+x=linkedList.pop()
+console.log(x)
+console.log(linkedList)
