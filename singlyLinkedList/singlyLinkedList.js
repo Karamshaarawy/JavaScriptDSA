@@ -34,6 +34,7 @@ class SinglyLinkedList{
                 newTail=current
                 current=current.next
             }
+            this.tail=newTail
         }
     }
 }
