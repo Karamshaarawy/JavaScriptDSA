@@ -80,6 +80,7 @@ class SinglyLinkedList{
     }
     set(index,value){
         let target=this.get(index)
+        if(!target) return false
     }
 }
 
