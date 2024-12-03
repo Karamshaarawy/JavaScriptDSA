@@ -79,7 +79,7 @@ class SinglyLinkedList{
         return current
     }
     set(index,value){
-        
+        let target=this.get(index)
     }
 }
 
