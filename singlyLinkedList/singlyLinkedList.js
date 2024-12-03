@@ -57,6 +57,7 @@ class SinglyLinkedList{
     }
     unshift(val){
         let newHead=new Node(val)
+        let oldHead=this.head
     }
 }
 
