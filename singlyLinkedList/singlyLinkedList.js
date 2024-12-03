@@ -65,6 +65,7 @@ class SinglyLinkedList{
             newHead.next=oldHead
             this.head=newHead
         }
+        this.length++
 
     }
 }
