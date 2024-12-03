@@ -45,6 +45,7 @@ class SinglyLinkedList{
         return current.val
     }
     shift(){
+        let oldHead=this.head
         
     }
 }
