@@ -47,6 +47,8 @@ class SinglyLinkedList{
     shift(){
         let oldHead=this.head
         if(!oldHead) return undefined
+        let newHead=this.head.next
+        this.head=newHead
         
     }
 }
