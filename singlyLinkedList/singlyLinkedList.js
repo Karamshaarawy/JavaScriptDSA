@@ -50,6 +50,7 @@ class SinglyLinkedList{
         let newHead=this.head.next
         this.head=newHead
         this.length--
+        return oldHead
         
     }
 }
