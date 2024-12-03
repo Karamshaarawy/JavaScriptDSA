@@ -77,7 +77,9 @@ class SinglyLinkedList{
             counter++
         }
         return current
-
+    }
+    set(index,value){
+        
     }
 }
 
