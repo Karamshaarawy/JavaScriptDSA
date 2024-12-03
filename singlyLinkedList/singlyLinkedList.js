@@ -68,6 +68,9 @@ class SinglyLinkedList{
         this.length++
         return this
     }
+    get(index){
+        
+    }
 }
 
 
