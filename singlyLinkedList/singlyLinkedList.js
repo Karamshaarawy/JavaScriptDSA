@@ -54,13 +54,15 @@ class SinglyLinkedList{
             this.tail=null
         }
         return oldHead
+    }
+    unshift(val){
         
     }
 }
 
 
 let linkedList= new SinglyLinkedList()
-//pushing elemnt to the linked list
+//pushing element to the linked list
 linkedList.push("x")
 linkedList.push("y")
 linkedList.push("z")
