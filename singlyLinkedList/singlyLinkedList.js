@@ -44,6 +44,9 @@ class SinglyLinkedList{
         }
         return current.val
     }
+    shift(){
+        
+    }
 }
 
 
