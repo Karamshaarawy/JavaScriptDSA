@@ -61,6 +61,8 @@ class SinglyLinkedList{
         if(!oldHead){
             this.head=newHead
             this.tail=newHead
+        }else{
+            newHead.next=oldHead
         }
 
     }
