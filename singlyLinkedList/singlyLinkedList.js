@@ -70,6 +70,14 @@ class SinglyLinkedList{
     }
     get(index){
         if(index<0||index>=this.length) return null
+        let counter=0
+        let current=this.head
+        while (counter<index){
+            current=current.next
+            counter++
+        }
+        return current
+
     }
 }
 
@@ -80,5 +88,5 @@ linkedList.push("x")
 linkedList.push("y")
 linkedList.push("z")
 console.log(linkedList)
-let x=linkedList.unshift("first")
+let x=linkedList.get("first")
 console.log(x)
