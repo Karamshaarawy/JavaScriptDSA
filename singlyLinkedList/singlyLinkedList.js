@@ -49,6 +49,7 @@ class SinglyLinkedList{
         if(!oldHead) return undefined
         let newHead=this.head.next
         this.head=newHead
+        this.length--
         
     }
 }
