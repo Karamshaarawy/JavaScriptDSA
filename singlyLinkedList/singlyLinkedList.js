@@ -90,6 +90,10 @@ class SinglyLinkedList{
             return false
         }
 
+        if(index===this.length) {
+            this.push(value) 
+            return true
+        }
 
     }
 }
