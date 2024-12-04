@@ -117,7 +117,9 @@ class SinglyLinkedList{
         if (this.length===index-1)  return this.pop(index)
         if (index===0) return this.shift()
         let nodeBefore=get(index-1)
-
+        let removedNode=get(index)
+        let nodeNext=get(index+1)
+        nodeBefore.next=nodeNext
     }
 }
 
