@@ -95,6 +95,11 @@ class SinglyLinkedList{
             return true
         }
 
+        if (index===0){
+            this.unshift(value)
+            return true
+        }
+
     }
 }
 
