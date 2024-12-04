@@ -106,6 +106,9 @@ class SinglyLinkedList{
 
         nodeBefore.next=newNode
         newNode.next=nodeNext
+
+        this.length++
+        
     }
 }
 
