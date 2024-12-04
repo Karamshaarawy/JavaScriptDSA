@@ -109,6 +109,7 @@ class SinglyLinkedList{
 
         this.length++
         
+        return true
     }
 }
 
