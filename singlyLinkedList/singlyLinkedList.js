@@ -99,6 +99,7 @@ class SinglyLinkedList{
             this.unshift(value)
             return true
         }
+        let newNode=new Node(value)        
 
     }
 }
