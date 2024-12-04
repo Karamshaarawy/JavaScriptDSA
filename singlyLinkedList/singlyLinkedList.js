@@ -101,6 +101,7 @@ class SinglyLinkedList{
         }
         let newNode=new Node(value)        
 
+        let nodeBefore=this.get(index-1)
     }
 }
 
