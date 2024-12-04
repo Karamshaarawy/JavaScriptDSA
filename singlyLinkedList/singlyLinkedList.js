@@ -116,9 +116,9 @@ class SinglyLinkedList{
         if (index<0||index>this.length) return undefined
         if (this.length===index-1)  return this.pop(index)
         if (index===0) return this.shift()
-        let nodeBefore=get(index-1)
-        let removedNode=get(index)
-        let nodeNext=get(index+1)
+        let nodeBefore=this.get(index-1)
+        let removedNode=this.get(index)
+        let nodeNext=this.get(index+1)
         nodeBefore.next=nodeNext
         this.length--
         return removedNode.val
@@ -138,7 +138,7 @@ console.log(linkedList)
 let x=linkedList.insert(1,"xyz")
 console.log(x)
 console.log(linkedList)
-let y=linkedList.insert(0,"xyz")
+let y=linkedList.remove(4)
 console.log(y)
 console.log(linkedList)
 let z=linkedList.insert(8,"xyz")
