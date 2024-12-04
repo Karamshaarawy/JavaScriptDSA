@@ -123,6 +123,10 @@ class SinglyLinkedList{
         this.length--
         return removedNode.val
     }
+
+    reverse(){
+        
+    }
 }
 
 
