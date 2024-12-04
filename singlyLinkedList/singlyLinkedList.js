@@ -116,6 +116,7 @@ class SinglyLinkedList{
         if (index<0||index>this.length) return undefined
         if (this.length===index-1)  return this.pop(index)
         if (index===0) return this.shift()
+        let nodeBefore=get(index-1)
 
     }
 }
