@@ -86,7 +86,7 @@ class SinglyLinkedList{
     }
 
     insert(index,value){
-        if( index<0||index>this.length){
+        if(index<0||index>this.length){
             return false
         }
 
@@ -120,6 +120,15 @@ linkedList.push("x")
 linkedList.push("y")
 linkedList.push("z")
 console.log(linkedList)
-let x=linkedList.set(2,"xyz")
+let a=linkedList.insert(2,"xyz")
+console.log(a)
+console.log(linkedList)
+let x=linkedList.insert(1,"xyz")
 console.log(x)
+console.log(linkedList)
+let y=linkedList.insert(0,"xyz")
+console.log(y)
+console.log(linkedList)
+let z=linkedList.insert(8,"xyz")
+console.log(z)
 console.log(linkedList)
