@@ -121,6 +121,7 @@ class SinglyLinkedList{
         let nodeNext=get(index+1)
         nodeBefore.next=nodeNext
         this.length--
+        return removedNode.val
     }
 }
 
