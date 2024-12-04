@@ -102,8 +102,10 @@ class SinglyLinkedList{
         let newNode=new Node(value)        
 
         let nodeBefore=this.get(index-1)
+        let nodeNext=nodeBefore.next
 
         nodeBefore.next=newNode
+        newNode.next=nodeNext
     }
 }
 
