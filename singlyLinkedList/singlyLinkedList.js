@@ -113,6 +113,7 @@ class SinglyLinkedList{
     }
 
     remove(index){
+        if (index<0||index>this.length) return undefined
         
     }
 }
