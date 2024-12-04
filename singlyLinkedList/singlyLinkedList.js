@@ -86,7 +86,10 @@ class SinglyLinkedList{
     }
 
     insert(index,value){
-        
+        if( index<0||index>this.length){
+            return false
+        }
+
 
     }
 }
