@@ -114,7 +114,8 @@ class SinglyLinkedList{
 
     remove(index){
         if (index<0||index>this.length) return undefined
-        
+        if (this.length===index-1)  return this.pop(index)
+
     }
 }
 
