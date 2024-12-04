@@ -136,6 +136,7 @@ class SinglyLinkedList{
             next=node.next
             node.next=prev
             prev=node
+            node=next
         }
 
         
