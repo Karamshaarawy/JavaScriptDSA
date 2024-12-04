@@ -129,6 +129,10 @@ class SinglyLinkedList{
         this.head=this.tail
         this.tail=node
 
+        let prev=null
+
+
+        
     }
 }
 
