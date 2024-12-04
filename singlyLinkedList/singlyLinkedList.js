@@ -84,6 +84,11 @@ class SinglyLinkedList{
         target.val=value
         return true
     }
+
+    insert(index,value){
+        
+
+    }
 }
 
 
