@@ -111,6 +111,10 @@ class SinglyLinkedList{
         
         return true
     }
+
+    remove(index){
+        
+    }
 }
 
 
